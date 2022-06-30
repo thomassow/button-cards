@@ -1,0 +1,63 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+html {
+  height: 100%;
+}
+
+
+.button-cards-container {
+  display: flex;
+  width: 160px;
+  height: 48px;
+  margin: 0;
+  gap: 8px;
+}
+
+.cards-box {
+  width: 48px;
+  height: 48px;
+  background-color: #fff;
+
+}
+
+.button-cards {
+  background-color: #fff;
+  width: 46px;
+  height: 46px;
+  border: solid;
+  border-color: #000;
+  border-width: 2px;
+}
+
+.button-light {
+  border-color: #E5E5E5;
+  color: #000;
+}
+
+.button-cards:hover,.button-cards:active {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #000;
+}
+
+.button-cards:focus {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #68A2CA;
+  outline: none;
+}
+
